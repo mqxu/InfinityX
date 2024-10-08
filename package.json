@@ -2,6 +2,7 @@
   "name": "vitepress-project",
   "private": true,
   "type": "module",
+  "homepage": "https://vue3-ts-docs-indol.vercel.app/",
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
