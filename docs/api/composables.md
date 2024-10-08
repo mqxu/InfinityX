@@ -14,7 +14,7 @@
 
 创建项目
 
-![img](https://cdn.nlark.com/yuque/0/2024/png/228333/1728314434762-f9e62685-63c9-4340-bd52-b2211f296b6b.png)
+![img](https://mqxu-upload.oss-cn-hangzhou.aliyuncs.com/md/1728314434762-f9e62685-63c9-4340-bd52-b2211f296b6b.png)
 
 ### 2.1 计数器组合函数
 
