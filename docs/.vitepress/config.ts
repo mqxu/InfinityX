@@ -40,6 +40,16 @@ export default defineConfig({
           ],
         },
       ],
+      "/api/": [
+        {
+          text: "api 学习",
+          items: [
+            { text: "介绍", link: "/api/" },
+            { text: "组合式函数 Composable ", link: "/api/composables" },
+            { text: "VueUse", link: "/components/vueuse" },
+          ],
+        },
+      ],
     },
     footer: {
       message: "用心学习 Vue 3 和 TypeScript！",

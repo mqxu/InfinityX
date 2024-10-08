@@ -7,7 +7,7 @@ hero:
   text: "Vue 3 + TypeScript 学习文档"
   tagline: "学习是少数人的狂欢，亦是孤独者的游戏"
   image:
-    src: /assets/logo.png
+    src: https://niit-soft.oss-cn-hangzhou.aliyuncs.com/Vue3.png
     alt: 前端工程化
   actions:
     - theme: brand
