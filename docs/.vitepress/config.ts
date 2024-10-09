@@ -2,57 +2,155 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Vue 3 + TypeScript 学习文档",
-  description: "详细学习 Vue 3 和 TypeScript 的指南",
+  title: "InfinityX7 的学习记录",
+  description:
+    "记录我学习后端、前端和移动端开发的相关资料，涵盖了 SpringBoot、SpringCloudAlibaba、Vue.js、React、UniApp、微信小程序、Flutter 以及鸿蒙（HarmonyOS）等技术。",
   themeConfig: {
-    siteTitle: "前端学习",
-    logo: "/assets/logo.png",
+    siteTitle: "InfinityX7 的学习记录",
+    logo: "https://niit-soft.oss-cn-hangzhou.aliyuncs.com/logo/Vue3.png",
     nav: [
       { text: "首页", link: "/" },
-      { text: "指南", link: "/guide/" },
-      { text: "组件", link: "/components/" },
-      { text: "API 参考", link: "/api/" },
-      { text: "常见问题", link: "/faq/" },
+      {
+        text: "后端",
+        items: [
+          {
+            text: "Spring Boot",
+            link: "/SpringBoot/",
+          },
+          {
+            text: "Spring Cloud Alibaba",
+            link: "/SpringCloudAlibaba/",
+          },
+        ],
+      },
+      {
+        text: "前端",
+        items: [
+          {
+            text: "Vue",
+            link: "/Vue/",
+          },
+          {
+            text: "React",
+            link: "/React/",
+          },
+          {
+            text: "UniApp",
+            link: "/UniApp/",
+          },
+          {
+            text: "微信小程序",
+            link: "/mp/",
+          },
+        ],
+      },
+      {
+        text: "移动端",
+        items: [
+          {
+            text: "Flutter",
+            link: "/Flutter/",
+          },
+          {
+            text: "鸿蒙",
+            link: "/HarmonyOS/",
+          },
+        ],
+      },
     ],
     socialLinks: [
-      { icon: "github", link: "https://github.com/mqxu/vue3-ts-docs" },
+      { icon: "github", link: "https://github.com/mqxu/InfinityX7" },
     ],
     sidebar: {
-      "/guide/": [
+      "/SpringBoot/": [
         {
-          text: "开始",
+          text: "Spring Boot 学习",
           collapsible: true,
           items: [
-            { text: "介绍", link: "/guide/" },
-            { text: "安装", link: "/guide/installation" },
-            { text: "基本概念", link: "/guide/concepts" },
+            { text: "介绍", link: "/SpringBoot/" },
+            { text: "快速起步", link: "/SpringBoot/quickstart" },
+            { text: "配置管理", link: "/SpringBoot/configure" },
           ],
         },
       ],
-      "/components/": [
+      "/SpringCloudAlibaba/": [
         {
-          text: "常用组件",
+          text: "Spring Cloud Alibaba 学习",
+          collapsible: true,
           items: [
-            { text: "介绍", link: "/components/" },
-            { text: "按钮 Button", link: "/components/button" },
-            { text: "表单 Form", link: "/components/form" },
-            { text: "表格 Table", link: "/components/table" },
+            { text: "介绍", link: "/SpringCloudAlibaba/" },
+            { text: "Nacos", link: "/SpringCloudAlibaba/Nacos" },
+            { text: "Nacos Config", link: "/SpringCloudAlibaba/NacosConfig" },
           ],
         },
       ],
-      "/api/": [
+      "/Vue/": [
         {
-          text: "api 学习",
+          text: "Vue 学习",
+          collapsible: true,
           items: [
-            { text: "介绍", link: "/api/" },
-            { text: "组合式函数 Composable ", link: "/api/composables" },
-            { text: "VueUse", link: "/components/vueuse" },
+            { text: "介绍", link: "/Vue/" },
+            { text: "Vue.js 3 基础", link: "/Vue/basic" },
+            { text: "Vue.js 3 组件", link: "/Vue/components" },
+            { text: "Vue.js 3 组合式函数", link: "/Vue/composables" },
+          ],
+        },
+      ],
+      "/React/": [
+        {
+          text: "React 学习",
+          collapsible: true,
+          items: [
+            { text: "介绍", link: "/React/" },
+            { text: "快速起步", link: "/React/quickstart" },
+          ],
+        },
+      ],
+      "/UniApp/": [
+        {
+          text: "UniApp 学习",
+          collapsible: true,
+          items: [
+            { text: "介绍", link: "/UniApp/" },
+            { text: "快速起步", link: "/UniApp/quickstart" },
+          ],
+        },
+      ],
+      "/mp/": [
+        {
+          text: "微信小程序学习",
+          collapsible: true,
+          items: [
+            { text: "介绍", link: "/mp/" },
+            { text: "微信小程序基础", link: "/mp/basic" },
+            { text: "微信小程序 API", link: "/mp/api" },
+            { text: "微信小程序自定义组件", link: "/mp/components" },
+          ],
+        },
+      ],
+      "/Flutter/": [
+        {
+          text: "Flutter 学习",
+          collapsible: true,
+          items: [
+            { text: "介绍", link: "/Flutter/" },
+            { text: "快速起步", link: "/Flutter/quickstart" },
+          ],
+        },
+      ],
+      "/HarmonyOS/": [
+        {
+          text: "鸿蒙学习",
+          collapsible: true,
+          items: [
+            { text: "介绍", link: "/HarmonyOS/" },
+            { text: "快速起步", link: "/HarmonyOS/quickstart" },
           ],
         },
       ],
     },
     footer: {
-      message: "用心学习 Vue 3 和 TypeScript！",
+      message: "用心学习，用心记录！",
       copyright: "Copyright © 2024 mqxu",
     },
   },

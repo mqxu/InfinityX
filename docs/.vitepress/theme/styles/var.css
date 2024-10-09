@@ -10,11 +10,19 @@
     /* brand按钮 */
     --vp-button-brand-border: #5fb4cb;
     --vp-button-brand-text: #fff;
-    --vp-button-brand-bg: #13728d;
-  
+    --vp-button-brand-bg: #52B5C7;
     --vp-button-brand-hover-border: #a0d5c4;
     --vp-button-brand-hover-text: #fff;
-    --vp-button-brand-hover-bg: #247b60;
-  
-    --vp-button-brand-active-border: #F6CEEC;
+    --vp-button-brand-hover-bg: #347b88;
+    --vp-button-brand-active-border: #347b88;
+
+      /* alt */
+      --vp-button-alt-border: #2C678C;
+      --vp-button-alt-text: #fff;
+      --vp-button-alt-bg: #2C678C;
+      --vp-button-alt-hover-border: #5290b6;
+      --vp-button-alt-hover-text: #fff;
+      --vp-button-alt-hover-bg: #5290b6;
+      --vp-button-alt-active-border: #5290b6;
+    }
   }

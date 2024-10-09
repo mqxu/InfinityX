@@ -1,9 +1,9 @@
 <p align="center">
 <img src="https://niit-soft.oss-cn-hangzhou.aliyuncs.com/logo.png" style="width:200px;" />
 </p>
-<h1 align="center">Vue 3 + TypeScript 学习文档</h1>
+<h1 align="center">InfinityX7 的学习记录</h1>
 <p align="center">
-无论你是初学者还是有经验的开发者，这个站点都会帮助你掌握最新的 Vue 3 技术与 TypeScript 实践，从基础到进阶，全方位提升你的前端开发能力。
+记录我学习后端、前端和移动端开发的相关资料，涵盖了 SpringBoot、SpringCloudAlibaba、Vue.js、React、UniApp、微信小程序、Flutter 以及鸿蒙（HarmonyOS）等技术。
 </p>
 
 <p>
@@ -20,6 +20,7 @@
 </p>
 
 ## 🔥 features
-  - 从头开始，循序渐进地学习 Vue 3 和 TypeScript。
-  - 涵盖从组件设计到代码优化的实际开发经验。
-  - 通过 VitePress 和 TypeScript，快速搭建高效、可维护的 Vue 3 应用。
+
+- 后端：Spring Boot、Spring Cloud Alibaba
+- 前端：Vue.js、React、UniApp、微信小程序
+- 移动端：Flutter、鸿蒙（HarmonyOS）
