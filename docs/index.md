@@ -8,7 +8,7 @@ hero:
   tagline: "学习是少数人的狂欢，亦是孤独者的游戏"
   image:
     src: https://niit-soft.oss-cn-hangzhou.aliyuncs.com/logo/Vue3.png
-    alt: InfinityX7 的学习记录
+    alt: InfinityX 的学习记录
   actions:
     - theme: brand
       text: 快速开始
