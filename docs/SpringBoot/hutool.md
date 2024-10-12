@@ -64,7 +64,7 @@ public class QrCodeController {
 }
 ```
 
-4. 接口测试：[http://localhost:8080/qrcode](http://localhost:8080/qrcode)
+4. 接口测试：
 
 ![](https://mqxu-upload.oss-cn-hangzhou.aliyuncs.com/md/1727059608255-cc1e5a07-b4e6-43e3-a7d2-964d15c0df7c.png)
 
@@ -129,7 +129,7 @@ public class LogController {
 }
 ```
 
-4. 测试：[http://localhost:8080/log](http://localhost:8080/log)
+4. 接口测试：
 
 ![](https://mqxu-upload.oss-cn-hangzhou.aliyuncs.com/md/1727059894705-e6d03816-1ae3-426e-afe5-b0791f05ad38.png)
 
