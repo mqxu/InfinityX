@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "InfinityX7 的学习记录"
+  name: "InfinityX 的学习记录"
   text: "终身学习者"
   tagline: "学习是少数人的狂欢，亦是孤独者的游戏"
   image:
