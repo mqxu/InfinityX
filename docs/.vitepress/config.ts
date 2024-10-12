@@ -2,11 +2,11 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "InfinityX7 的学习记录",
+  title: "InfinityX 的学习记录",
   description:
     "记录我学习后端、前端和移动端开发的相关资料，涵盖了 SpringBoot、SpringCloudAlibaba、Vue.js、React、UniApp、微信小程序、Flutter 以及鸿蒙（HarmonyOS）等技术。",
   themeConfig: {
-    siteTitle: "InfinityX7 的学习记录",
+    siteTitle: "InfinityX 的学习记录",
     logo: "https://niit-soft.oss-cn-hangzhou.aliyuncs.com/logo/Vue3.png",
     nav: [
       { text: "首页", link: "/" },
