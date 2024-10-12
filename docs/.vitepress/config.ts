@@ -70,6 +70,7 @@ export default defineConfig({
             { text: "介绍", link: "/SpringBoot/" },
             { text: "快速起步", link: "/SpringBoot/quickstart" },
             { text: "配置管理", link: "/SpringBoot/configure" },
+            { text: "Hutool 结合配置文件练习", link: "/SpringBoot/hutool" },
           ],
         },
       ],
