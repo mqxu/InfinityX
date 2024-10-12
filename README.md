@@ -1,7 +1,7 @@
 <p align="center">
-<img src="https://niit-soft.oss-cn-hangzhou.aliyuncs.com/logo.png" style="width:200px;" />
+<img src="https://niit-soft.oss-cn-hangzhou.aliyuncs.com/logo/logo.png" style="width:200px;" />
 </p>
-<h1 align="center">InfinityX7 的学习记录</h1>
+<h1 align="center">InfinityX 的学习记录</h1>
 <p align="center">
 记录我学习后端、前端和移动端开发的相关资料，涵盖了 SpringBoot、SpringCloudAlibaba、Vue.js、React、UniApp、微信小程序、Flutter 以及鸿蒙（HarmonyOS）等技术。
 </p>
